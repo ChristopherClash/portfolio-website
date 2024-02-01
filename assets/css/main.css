@@ -7,28 +7,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-pre, a, abbr, acronym, address, big, cite,
-code, del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var, b,
-u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside,
-canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;}
-
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;}
-
 body {
 	line-height: 1;
 }
@@ -41,18 +19,9 @@ blockquote, q {
 	quotes: none;
 }
 
-	blockquote:before, blockquote:after, q:before, q:after {
-		content: '';
-		content: none;
-	}
-
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-body {
-	-webkit-text-size-adjust: none;
 }
 
 mark {
@@ -60,23 +29,7 @@ mark {
 	color: inherit;
 }
 
-input::-moz-focus-inner {
-	border: 0;
-	padding: 0;
-}
-
-input, select, textarea {
-	-moz-appearance: none;
-	-webkit-appearance: none;
-	-ms-appearance: none;
-	appearance: none;
-}
-
 /* Basic */
-
-	html {
-		box-sizing: border-box;
-	}
 
 	*, *:before, *:after {
 		box-sizing: inherit;
@@ -84,7 +37,6 @@ input, select, textarea {
 
 	body {
 		background: #fff;
-		overflow: hidden;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -205,7 +157,7 @@ input, select, textarea {
 		height: 100%;
 		left: 0;
 		opacity: 0;
-		position: fixed;
+		position: absolute;
 		top: 0;
 		width: 100%;
 	}
@@ -224,7 +176,7 @@ input, select, textarea {
 	#main {
 		height: 100%;
 		left: 0;
-		position: fixed;
+		position: absolute;
 		text-align: center;
 		top: 0;
 		width: 100%;
